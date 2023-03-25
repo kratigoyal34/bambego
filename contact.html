@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Poppins:wght@100;200;300;500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/x-icon" href="images/8.png">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>BanmbEcho-An Echo for Eco</title>
+</head>
+
+<body>
+    <section class="contact">
+        <!-- navbar -->
+        <nav class="navbar">
+
+            <div class="brand-img"><img src="image/logo.png" alt="" ></div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+    
+    
+            <div class="navbar-links">
+                <ul>
+    
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <!-- <button class="btn1"><a href="#">Sign Up</a></button> -->
+                </ul>
+    
+            </div>
+        </nav>
+        <div class="container5">
+            <h1 class="about1">GET IN TOUCH</h1>
+            <div class="line">
+                <div class="thick"></div>
+                <div class="thin"></div>
+            </div>
+            <div class="containerform">
+                <form>
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="SUBMIT">
+                </form>
+              </div>
+        </div>
+
+
+    </section>
+    <footer class="footer">
+        <div class="container">
+         <div class="row">
+           <div class="footer-col">
+             <h4>company</h4>
+             <ul>
+               <li><a href="#">about us</a></li>
+               <li><a href="#">our services</a></li>
+               <li><a href="#">privacy policy</a></li>
+               <li><a href="#">affiliate program</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>get help</h4>
+             <ul>
+               <li><a href="#">FAQ</a></li>
+               <li><a href="#">shipping</a></li>
+               <li><a href="#">returns</a></li>
+               <li><a href="#">order status</a></li>
+               <li><a href="#">payment options</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>online shop</h4>
+             <ul>
+               <li><a href="#">Kitchen Ware</a></li>
+               <li><a href="#">Statinary</a></li>
+               <li><a href="#">Furniture</a></li>
+               <li><a href="#">Decoratives</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>follow us</h4>
+             <div class="social-links">
+               <!-- <a href="#"><i class="fab fa-facebook-f"></i></a> -->
+               <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="https://instagram.com/bambeco_official?igshid=ZDdkNTZiNTM="><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-linkedin-in"></i></a>
+             </div>
+           </div>
+         </div>
+        </div>
+     </footer>
+    <div class="copyright">
+        <p>© 2023, BambEco. All rights reserved.
+        </p>
+    </div>
+
+
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
+        })
+
+        
+
+    </script>
+</body>
+
+</html>
